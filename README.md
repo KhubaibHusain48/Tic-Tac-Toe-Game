@@ -14,12 +14,6 @@ A simple two-player **Tic Tac Toe (XO)** game built in Java using **Android Stud
 
 ---
 
-## 📷 Screenshots
-
-*(Add emulator screenshots of your app here for better presentation)*
-
----
-
 ## 🛠️ Tech Stack
 
 - **Language**: Java
@@ -50,10 +44,11 @@ app/
 ├── res/layout/
 │   └── activity_main.xml
 └── AndroidManifest.xml
+   ```
 🧠 Game Logic
 Uses a flag (0 or 1) to alternate between players.
 
 Stores button values as strings to check for win conditions.
 
 Uses Toast to display results and resets the board after each match.
-
+```
